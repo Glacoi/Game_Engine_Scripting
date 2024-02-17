@@ -52,8 +52,5 @@ public class Calculator : MonoBehaviour
         UpdateDisplay();
     }
 
-    private void UpdateDisplay()
-    {
-        displayText.text = currentInput;
-    }
+    private void UpdateDisplay() => displayText.text = currentInput;
 }
